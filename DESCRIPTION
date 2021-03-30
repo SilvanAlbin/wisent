@@ -7,8 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "silvan.albin@hotmail.com",
            comment = c(ORCID = "0000-0001-8472-2075"))
-Description: What the package does (one paragraph).
-License: MIT + file LICENSE
+Description: This packages includes various functions for daily use
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
