@@ -5,7 +5,7 @@
 #' @param pkg A package for loading your packages - simple as that
 #' @keywords pkg
 #' @export inst_pkg
-#' @examples inst_pkg("base")
+#' @examples inst_pkg("dplyr")
 
 inst_pkg <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
