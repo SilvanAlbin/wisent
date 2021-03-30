@@ -5,7 +5,7 @@
 #' @param pkg A package for loading your packages - simple as that
 #' @keywords pkg
 #' @export inst_pkg
-#' @examples
+#' @examples inst_pkg("ggplot2")
 #' inst_pack()
 
 inst_pkg <- function(pkg){
@@ -14,3 +14,4 @@ inst_pkg <- function(pkg){
     install.packages(new.pkg, dependencies = TRUE)
   sapply(pkg, require, character.only = TRUE)
 }
+
