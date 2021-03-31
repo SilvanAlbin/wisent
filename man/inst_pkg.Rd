@@ -6,7 +6,14 @@
 \usage{
 inst_pkg(pkg)
 }
+\arguments{
+\item{pkg}{Include the packages you like to install}
+}
 \description{
 This function allows you to install and load all your packages. Additionally
 it is shown whether the package was loaded successfully or not.
+}
+\examples{
+pkg = c("ggplot2")
+inst_pkg(pkg)
 }

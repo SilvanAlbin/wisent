@@ -2,7 +2,7 @@
 #'
 #' This function allows you to install and load all your packages. Additionally
 #' it is shown whether the package was loaded successfully or not.
-#' @param pkg
+#' @param pkg Include the packages you like to install
 #' @export inst_pkg
 #' @examples
 #' pkg = c("ggplot2")
