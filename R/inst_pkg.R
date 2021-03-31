@@ -2,7 +2,7 @@
 #'
 #' This function allows you to install and load all your packages. Additionally
 #' it is shown whether the package was loaded successfully or not.
-#' @param  wisent
+#' @param  pkg
 #' @export inst_pkg
 #' @examples inst_pkg("dplyr")
 
