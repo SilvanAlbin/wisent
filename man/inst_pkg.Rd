@@ -7,7 +7,7 @@
 inst_pkg(pkg)
 }
 \arguments{
-\item{pkg}{A package for loading your packages - simple as that}
+\item{wisent}{A package for loading your packages - simple as that}
 }
 \description{
 This function allows you to install and load all your packages. Additionally
@@ -15,6 +15,4 @@ it is shown whether the package was loaded successfully or not.
 }
 \examples{
 inst_pkg("dplyr")
-inst_pkg()
 }
-\keyword{pkg}
