@@ -15,10 +15,8 @@ date_format(df, date)
 Following function transforms the Date as class Date and creates a new
 columns with the Date as Month and Year. This is especially handy for
 the creation of visualization as it takes less space and avoids overlapping
-text on the axises.
+text on the axes.
 }
 \examples{
-df <- data.frame (names  = c('John Doe','Peter Gynn','Jolie Hope'),
-date = c('2010-11-1','2008-3-25','2007-3-14'))
 date_format(df, date)
 }
