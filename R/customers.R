@@ -1,4 +1,4 @@
-#' Prices of over 50,000 round cut diamonds
+#' Random data of clients
 #'
 #' A dataset containing random data. The variables are as follows:
 #'
@@ -8,3 +8,7 @@
 #'   \item{date}{random date}
 #'   \item{payment}{amount of payment}
 #' }
+#' @export df
+#' @name df
+
+df

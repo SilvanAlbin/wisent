@@ -9,9 +9,11 @@
 #' pkg = c("ggplot2")
 #' inst_pkg(pkg)
 
-inst_pkg <- function(pkg){
+inst_pkg <- function(pkg = "base"){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   if (length(new.pkg))
     install.packages(new.pkg, dependencies = TRUE)
   sapply(pkg, require, character.only = TRUE)
 }
+
+inst_pkg()

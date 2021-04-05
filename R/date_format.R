@@ -7,6 +7,7 @@
 #'
 #' @param df The data table
 #' @param date The column indicating the date
+#' @name date_format
 #' @export date_format
 #' @examples
 #' date_format(df, date)
@@ -18,4 +19,4 @@ date_format <- function(df, date) {
   df$Date = format(as.Date(df$date), format = "%b %y")
 }
 
-df$Date = date_format(df,date)
+date_format(df,date)
