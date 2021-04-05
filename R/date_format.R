@@ -11,11 +11,11 @@
 #' @examples
 #' date_format(df, date)
 
-usethis::use_data(df)
 
 date_format <- function(df, date) {
-  df$date = as.Date(df$date)
-  df$Date = format(as.Date(df$date), format = "%b %y")
+  df$date = as.Date(use_data(df)$date)
+  df$Date = format(as.Date(use_data(df)$date), format = "%b %y")
 }
 
-df$Date = date_format(df,date)
+#df$Date = date_format(df,date)
+
