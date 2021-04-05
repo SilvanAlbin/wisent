@@ -4,7 +4,7 @@
 \alias{inst_pkg}
 \title{Install and load packages}
 \usage{
-inst_pkg(pkg)
+inst_pkg(pkg = "base")
 }
 \arguments{
 \item{pkg}{Include the packages you like to install}
