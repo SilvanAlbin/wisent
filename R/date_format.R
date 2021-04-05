@@ -16,7 +16,7 @@ load(file = "data/df.rda")
 
 date_format <- function(df, date) {
   df$date = as.Date(df$date)
-  df$Date = format(as.Date(df$date), format = "%b %y")
+  Date = format(as.Date(df$date), format = "%b %y")
+  data_frame = cbind(df, Date)
+  return(data_frame)
 }
-
-date_format(df,date)
